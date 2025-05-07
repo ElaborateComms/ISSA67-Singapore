@@ -258,6 +258,7 @@
         }
 
         .PackagePDF {
+            margin-top: 2rem;
             max-width: 350px;
             width: 90%;
         }
@@ -433,6 +434,7 @@
         ul {
             margin-left: 1rem;
         }
+        
 
 
 
@@ -449,7 +451,10 @@
         .mainButton {
             font-size: 0.8rem;
             padding: 0.8rem;
+        }
 
+        .bodyPara {
+            margin-bottom: 0.5rem;
         }
 
         .sectionBox .paraHead {
@@ -505,6 +510,10 @@
 
             .innerMainBox {
                 margin: auto;
+            }
+
+            .innerBoxMain {
+                margin-top: 1rem;
             }
 
 
@@ -626,6 +635,7 @@
 
 
                 .introContainer {
+                    margin-top: 5rem;
                     margin-bottom: 0;           
                 }
 
@@ -661,7 +671,7 @@
                 }
 
                 p {
-                    font-size: 0.7rem;
+                    font-size: 0.8rem;
                 }
 
                 .mapEmbed div img {
