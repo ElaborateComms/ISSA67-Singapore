@@ -1,0 +1,674 @@
+        * {
+            padding: 0;
+            margin: 0;
+            transition: ease 0.8s all;
+        }
+
+
+
+                    @font-face{src: url(fonts/Roboto-Black.ttf);
+                        font-family: Roboto-Black;  }
+
+                    @font-face{src: url(fonts/Roboto-Bold.ttf);
+                        font-family: Roboto-Bold;  }
+
+                    @font-face{src: url(fonts/Roboto-Regular.ttf);
+                        font-family: Roboto-Regular;  }
+
+                    @font-face{src: url(fonts/RobotoSlab-Regular.ttf);
+                        font-family: RobotoSlab-Regular;  }
+
+
+
+        a, button, .carouselArrows img {
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+            font-family: Roboto-Bold;
+            font-size: 1.2rem;
+        }
+
+        body {
+            background-color: #fff;
+            font-family: sans-serif;
+        }
+
+        .header {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: flex;
+            margin: auto;
+        }
+
+        .headBox img {
+            z-index: -10;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .headBox {
+        position: relative;
+            margin: auto;
+            width: 100%;
+            max-width: 3000px;
+            height: 100vh;
+            margin: auto;
+
+        }
+
+        .bodySection {
+            background-image: linear-gradient(to top, #377cba, #ffffff);
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .ISSA {
+            width: 5%;
+            max-width: 350px;
+            top: 3%;
+            left: 3%;
+            position: absolute;
+            z-index: 50;
+        }
+
+        .navi {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            z-index: 50;
+        }
+
+        .mainButton {
+            color: #fff;
+            background-color: transparent;
+            border: solid 2px #fff;
+            padding: 1rem;
+            font-size: 1rem;
+            font-family: Roboto-Black;
+            text-transform: uppercase;
+        }
+
+        .headersBox {
+            position: absolute;
+            margin: auto;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 50;
+        }
+
+        .homeTitle {
+            padding: 1rem;
+            font-size: 6rem;
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .homeStand {
+            color: #fff;
+            font-size: 2rem;
+            font-family: RobotoSlab-Regular;
+            line-height: 1rem;
+        }
+
+        .headersBox .subButton {
+            color: #fff;
+            background-color: #dc3c3f;
+            border: none;
+            padding: 1rem;
+            margin-top: 5rem;
+            text-transform: uppercase;
+        }
+
+        .paraHead {
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+            font-size: 2rem;
+            padding: 0 0 2rem 5rem;
+            }
+
+        .bodyPara {
+            font-size: 1rem;
+            font-family: Roboto-Regular;
+            padding: 0.5rem 0 0.5rem 0;     
+        }
+
+        .subButton {
+            color: #fff;
+            font-size: 1rem;
+            background-color: #dc3c3f;
+            font-family: Roboto-Black;
+            border: none;
+            padding: 1rem;
+            margin: 1rem 0 1rem 0;
+            text-transform: uppercase;
+        }
+
+        .logo67 {
+            margin: auto;
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            
+        }
+
+        .logo67 img {
+            max-width: 600px;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sectionBox {
+            display: grid;
+            margin: auto;
+            justify-content: center;
+            grid-template-columns: 50% 50%;
+        }
+
+        .introContainer {
+            width: 90%;
+            display: grid;
+            grid-template-columns: 100%;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 5%;           
+        }
+
+        .introContainer .featureImage {
+            margin: auto;
+            margin-bottom: 2%;
+            width: 100%;
+            max-width: 650px;
+        }
+
+        .innerBoxMain {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .innerBoxMain .bodyPara {
+            margin: auto;
+
+            text-align: center;
+            width: 100%;
+        }
+
+        .innerBoxMain .paraHead {
+            margin: auto;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            margin: 2% 0% 2% 0%;
+        }
+
+        
+
+        .innerBoxMain .subButton {
+            margin: auto;
+            display: flex;            
+            margin-top: 2rem;
+            justify-content: center;
+        }
+        
+        
+
+        .mapEmbed {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+
+        .mapEmbed iframe {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .mapEmbed div img {
+            width: 30%;
+            padding: 1rem 0rem 1rem 0rem;
+        }
+
+        .mapInfo {
+            width: 20%;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0px 0px 5px 0px;
+            position: relative;
+            top: 0;
+            left: 90%;
+            transform: translate(-100%, -200%);
+            z-index: 10;
+        }
+
+        .mapEmbed p {
+            font-size: 0.8rem;
+            font-family: sans-serif;
+            line-height: 1rem;
+        }
+
+        .PackagePDF {
+            max-width: 350px;
+            width: 90%;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .imageCarousel {
+            width: 100%;
+            max-width: 1920px;
+            display: flex;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .imageCarousel div {
+            display: grid;
+            margin: auto;
+            grid-template-columns: 70% 40%;
+            flex: none;
+        }
+
+        .imageCarousel div span{
+            margin-right: 3rem;
+        }
+
+        .imageCarousel div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .carouselArrows {
+            display: flex;
+            padding: 1rem;
+            justify-content: end;
+            margin: auto;
+            z-index: 20;
+        }
+        
+        .imageCarousel img:hover {
+            cursor: pointer;
+        }
+
+        .carouselArrows img {
+            padding: 1rem;
+            width: 150px;
+        }
+
+        .carouselBox {
+            position: relative;
+        }
+
+        .footHead {
+            text-transform: uppercase;
+            font-family: Roboto-Bold;
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        .carouselBox .innerBox {
+            width: 20%;
+            position: absolute;
+            top: 35%;
+            right: 10%;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 5px 0px;
+            padding: 1rem;
+            transform: translate(-50%, -50%);
+            margin: 5% auto;
+        }
+
+        .contentBox {
+            display: flex;
+            flex-direction: row;
+        }
+
+        
+        #fdbtn, #bckbtn {
+            width: 5%;
+            max-width: 50px;
+        }
+
+        .contentBox {
+            margin: auto;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            
+        }
+
+        .innerBox {
+            display: block;
+            padding: 5rem;
+            justify-content: flex-end;
+        }
+
+        .innerBox div {
+            margin: 1rem 0 1rem 0;
+            width: 50%;
+            max-width: 350px;
+        }
+
+        .innerBox div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .innerBoxTwo {
+            display: flex;
+            flex-direction: column;
+            padding: 5rem;
+            color: #ffffff;
+            background-color: #377cba;
+            justify-content: flex-end;
+
+        }
+
+
+
+        .contentBox .innerBox div .paraHead {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+        }
+
+        .innerBox .paraHead, .innerBoxTwo .paraHead {
+            padding: 0;
+        }
+
+        .copyTs {
+            background-color: #dc3c3f;
+            padding: 5rem;
+        }
+
+        .textFooter {
+            margin: auto;
+            color: #fff;
+        }
+
+        .copyrightBlurb {
+            text-align: center;
+            font-family: Roboto-Regular;
+            font-size: 0.8rem;
+            color: #fff;
+            padding: 0;
+            background-color: #dc3c3f;
+            padding-bottom: 2rem;
+        }
+
+        .copyTs .mainButton {
+            margin-top: 1rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        .ISSA img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        li {
+            font-family: Roboto-Regular;
+            font-size: 1rem;
+            color: #fff;
+        }
+
+        ul {
+            margin-left: 1rem;
+        }
+
+
+
+/* Queries */
+
+@media screen and (max-width: 960px){
+
+        .ISSA{
+            width: 60px;
+            left: 5%;
+            top: 3%;
+        }
+
+        .mainButton {
+            font-size: 0.8rem;
+            padding: 0.8rem;
+
+        }
+
+        .sectionBox .paraHead {
+            color: white;
+            margin-top: 2rem;
+        }
+
+        .subButton, .textFooter .mainButton {
+            font-size: 0.8rem;
+            padding: 0.8rem;
+        }
+
+
+        .headBox {
+                height: 50vh;
+            }
+
+
+            .homeTitle {
+                padding: 0.8rem;
+                font-size: 3rem;
+                margin-top: 5rem;
+            }
+    
+            .homeStand {
+                font-size: 1rem;
+                line-height: 0.8rem;
+            }
+
+            .headersBox .subButton {
+                margin-top: 2rem;
+                padding: 0.8rem;
+            }
+    
+            .logo67 {
+                width: 80%;
+                margin-top: 3rem;
+                margin-bottom: 0rem;
+                
+            }
+    
+            .logo67 img {
+                max-width: 500px;
+            }
+
+            .sectionBox {
+                display: grid;
+                grid-template-columns: 100%;
+                width: 90%;
+                margin: auto;
+                justify-content: center;
+            }
+
+            .innerMainBox {
+                margin: auto;
+            }
+
+
+
+            .sectionBox .innerBox {
+                padding: 2rem;
+            }
+
+            .imageContainer .featureImage {
+                margin-left: 0px;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+
+            .paraHead {
+                font-size: 1.5rem;
+                padding: 1rem;
+                }
+
+
+                .imageCarousel {
+                    width: 100%;
+                    max-width: 960px;
+                    display: flex;
+                    overflow: hidden;
+                    margin: auto;
+                }
+        
+                .imageCarousel div {
+                    display: grid;
+                    height: 350px;
+                    flex: none;
+                }
+
+                .carouselBox .innerBox {
+                    width: 55%;
+                    position: absolute;
+                    top: 100%;
+                    left: 40%;
+                    background-color: #ffffff;
+                    box-shadow: 0px 0px 5px 0px;
+                    padding: 1rem;
+                    transform: translate(-50%, -50%);
+                    margin: auto;
+                }
+
+
+                .carouselArrows {
+                    padding: 0.8rem;
+                }
+            
+        
+                .carouselArrows img {
+                    padding: 0.5rem;
+                    width: 180px;
+                }
+
+                
+
+                .carouselBox .innerBox .bodyPara {
+                    font-size: 0.7rem;
+                    line-height: 0.8rem;
+                }
+
+                .mapEmbed {
+                    width: 100%;
+                    height: 50vh;
+                    position: relative;
+                }
+        
+                .mapEmbed iframe {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+        
+                .mapEmbed div img {
+                    width: 30%;
+                    padding: 1rem 0rem 1rem 0rem;
+                }
+        
+                .mapInfo {
+                    width: 55%;
+                    position: absolute;
+                    top: 100%;
+                    left: 40%;
+                    background-color: #ffffff;
+                    box-shadow: 0px 0px 5px 0px;
+                    padding: 1rem;
+                    transform: translate(-50%, -50%);
+                    margin: auto;
+                }
+        
+                .mapEmbed p {
+                    font-size: 0.7rem;
+                    font-family: sans-serif;
+                    line-height: 0.8rem;
+                }
+
+                .contentBox {
+                    margin: auto;
+                    display: grid;
+                    grid-template-columns: 100%;
+                    
+                }
+
+                .contentBox .innerBox {
+                    display: block;
+                    margin-top: 10rem;
+                    padding: 2rem;
+                    justify-content: flex-end;
+                }
+        
+                .innerBox div {
+                    margin: 1rem 0 1rem 0;
+                    width: 60%;
+                    max-width: 300px;
+                }
+        
+                .innerBoxTwo {
+                    display: block;
+                    padding: 2rem;
+        
+                }
+
+                .copyTs {
+                    padding: 2rem;
+                }
+
+                .copyrightBlurb {
+                    font-size: 0.6rem;
+                }
+
+                .footHead {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+
+                .mapEmbed div img {
+                    width: 50%;
+                    padding: 0.5rem 0rem 0.5rem 0rem;
+                }
+
+
+                .carouselArrows #fdbtn, .carouselArrows #bckbtn {
+                    width: 35px;
+                }
+
+
+            .sectionBox .innerBox .paraHead {
+                color: #000;
+            }
+
+    }
+    
+
+
+/*
+
+#dc3c3f red
+#357ab9 - #fff blue to white gradient
+#357ab9 blue
+
+*/
