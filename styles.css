@@ -28,6 +28,7 @@
             font-size: 1.2rem;
         }
 
+
         body {
             background-color: #fff;
             font-family: sans-serif;
@@ -138,6 +139,13 @@
         .bodyPara {
             font-size: 1rem;
             font-family: Roboto-Regular;
+            padding: 0.5rem 0 0.5rem 0;     
+        }
+
+        .bodyParaHighlight{
+            font-size: 1rem;
+            font-family: Roboto-Bold;
+            color: #377cba;
             padding: 0.5rem 0 0.5rem 0;     
         }
 
@@ -280,6 +288,7 @@
         .imageCarousel div {
             display: grid;
             margin: auto;
+            gap: 10px;
             grid-template-columns: 70% 40%;
             flex: none;
         }
@@ -454,7 +463,7 @@
         }
 
         .bodyPara {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.3rem;
         }
 
         .sectionBox .paraHead {
@@ -586,7 +595,7 @@
 
                 
 
-                .carouselBox .innerBox .bodyPara {
+                .carouselBox .innerBox .bodyPara, .carouselBox .innerBox .bodyParaHighlight {
                     font-size: 0.7rem;
                     line-height: 0.8rem;
                 }
