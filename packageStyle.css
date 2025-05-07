@@ -101,7 +101,7 @@
         .mainSection {
             width: 100%;
             display: flex;
-            margin: % 0% 8% 0%;
+            margin: 8% 0% 8% 0%;
         }
 
         .mainBox {
@@ -411,6 +411,30 @@
 
             @media screen and (max-width: 960px){
 
+                .headBox {
+                    height: 50vh;
+                }
+
+                .ISSA {
+                    width: 30%;
+                    max-width: 250px;
+                }
+
+                .backButton {
+                    top: 65%;
+                }
+
+                .introVid {
+                    width: 90%;
+                    max-width: 550px;
+                    position: relative;
+                    z-index: 50;
+                    top: 20%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    margin-bottom: 0;
+                }
+
             .twoColContent {
                 width: 100%;
                 margin-top: 5%;
@@ -421,4 +445,207 @@
                     font-size: 0.6rem;
                 }
 
+
+                .mainSection {
+                    width: 95%;
+                    display: flex;
+                    margin: 0 auto;
+                }
+        
+                .mainBox {
+                    width: 100%;
+                    margin: auto;
+                    padding: 1rem;
+                }
+
+                .left {
+                    display: block;
+                    background-color: #377cba;
+                    width: 90%;
+                    padding: 2rem;
+                    color: #fff;
+                }
+    
+                .right {
+                    width: 90%;
+                }
+        
+                .quote  {
+                        background: linear-gradient(to top right, rgba(220, 60, 63), rgba(55, 124, 186));
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-size: 2rem;
+                        background-size: 150%;
+                        background-clip: text;
+        
+                        animation: animate-gradient 3s linear infinite;
+                    }
+        
+                    @keyframes animate-gradient {
+                        to {
+                            background-position: 150%;
+                        }
+                    }
+
+
+                    .sgCol {
+                        margin: auto;
+                        width: 100%;
+                        display: block;
+                        position: relative;
+                        margin-top: 15%;
+                        margin-bottom: 15%;
+                    }
+        
+                    .sgCol .subPara button {
+                        background-color: #b69432;
+                        border: none;
+                    }
+        
+                    .sgCol .subPara {
+                        margin: auto;
+                        text-align: center;
+                        width: 30%;
+                        font-size: 1.2rem;
+                        font-family: Roboto-Regular;
+                    }
+        
+                    .MTCLogo {
+                        margin: auto;
+                        max-width: 250px;
+                        width: 50%;
+                        margin-bottom: 1rem;
+                    }
+              
+                    .floatImg   {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        margin-top: 20px;
+                        border-radius: 0px;
+                        width: 100%;
+                        max-width: 450px;
+                        display: flex;
+                        transform: translate(0%, 0%); }
+        
+                    .floatImg2   {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        margin-top: 20px;
+                        border-radius: 0px;
+                        width: 100%;
+                        max-width: 450px;
+                        display: flex;
+                        transform: translate(0%, 0%);
+                    }
+        
+                    .floatImg3  {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        margin-top: 20px;
+                        border-radius: 0px;
+                        width: 100%;
+                        max-width: 450px;
+                        display: flex;
+                        transform: translate(0%, 0%);
+                    }
+        
+                    .floatImg4   {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        margin-top: 20px;
+                        border-radius: 0px;
+                        width: 100%;
+                        max-width: 450px;
+                        display: flex;
+                        transform: translate(0%, 0%);
+                    }
+
+                    .sgCol .subPara {
+                        width: 90%;
+                        font-size: 1rem;
+                    }
+
+
+                    .sgColBlu {
+                        display: grid;
+                        grid-template-columns: 100%;
+                        width: 100%;
+                        padding: 0.5rem;
+                    }
+        
+                    .sgColBlu .rightBlu {
+                        padding: 1rem;
+                        margin: auto;
+                    }
+        
+                    .sgColBlu .subPara {
+                        margin: auto;
+                        margin: 0.8rem 0rem 0.8rem 0rem;
+                    }
+        
+                    .subParaSm {
+                        margin: auto;
+                        font-family: Roboto-Regular;
+                        font-size: 0.8rem;
+                        color: #fff;                
+                    }
+        
+                    .smLine {
+                        margin: 0.8rem 0rem 0.8rem 0rem;
+                        width: 90%;
+                    }
+        
+                    .sgColBlu .subPara button {
+                        margin: auto;
+                        background-color: #dc3c3f;
+                        padding: 0.8rem;
+                        display: flex;
+                        justify-content: center;
+                        font-family: Roboto-Bold;
+                        color: #fff;
+                        margin-top: 10%;
+                    }
+        
+                    .rightBlu {
+
+                        font-size: 1rem;
+                        margin: auto;
+                    }
+        
+                    .subBox {
+                        display: flex;
+                        margin-top: 0rem;
+                        align-items: center;
+
+                    }
+        
+                    p {
+                        width: 90%;
+                    }
+
+
+                    Button {
+                        font-size: 1.2rem;
+                        padding: 0.8rem;
+                    }
+
+                    .footer {
+                        display: block;
+                        margin: 0 auto;
+                    }
+
+                    .copyrightBlurb {
+                        width: 80%;
+                        font-size: 0.8rem;
+                        margin: 0 auto;
+                        padding: 2rem 1rem 2rem 1rem;
+                    }
+
+                    h4 {
+                        font-size: 1.5rem;
+                    }
             }
