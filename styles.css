@@ -525,6 +525,19 @@
                 }
 
 
+                .innerBoxMain .bodyPara {
+                    margin: auto;
+                    text-align: left;
+                    width: 100%;
+                    font-size: 0.8rem;
+                }
+        
+                .innerBoxMain .paraHead {
+                    margin: 0 auto;
+                    text-align: left;
+                }
+
+
                 .imageCarousel {
                     width: 100%;
                     max-width: 960px;
@@ -609,6 +622,11 @@
                     display: grid;
                     grid-template-columns: 100%;
                     
+                }
+
+
+                .introContainer {
+                    margin-bottom: 0;           
                 }
 
                 .contentBox .innerBox {
