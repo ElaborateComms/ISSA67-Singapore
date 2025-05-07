@@ -456,6 +456,12 @@
         ul {
             margin-left: 1rem;
         }
+
+        .logo {
+            width: 20%;
+            max-width: 250px;
+            margin-bottom: 0.5rem;
+        }
         
 
 
@@ -468,6 +474,12 @@
             width: 60px;
             left: 5%;
             top: 3%;
+        }
+
+        .logo {
+            width: 20%;
+            max-width: 250px;
+            margin-bottom: 0.5rem;
         }
 
         .mainButton {
