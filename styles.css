@@ -206,9 +206,9 @@
 
         .innerBoxMain .bodyPara {
             margin: auto;
-
+            font-size: 1.2rem;
             text-align: center;
-            width: 100%;
+            width: 70%;
         }
 
         .innerBoxMain .paraHead {
@@ -279,22 +279,21 @@
 
         .imageCarousel {
             width: 100%;
-            max-width: 1920px;
+            max-width: 1500px;
             display: flex;
             overflow: hidden;
-            margin: auto;
         }
 
         .imageCarousel div {
             display: grid;
             margin: auto;
-            gap: 10px;
-            grid-template-columns: 70% 40%;
+            height: 70vh;
+            grid-template-columns: 90% 20%;
             flex: none;
         }
 
-        .imageCarousel div span{
-            margin-right: 3rem;
+        .imageCarousel div span {
+            margin-right: 1rem;
         }
 
         .imageCarousel div img {
@@ -320,6 +319,8 @@
             width: 150px;
         }
 
+
+
         .carouselBox {
             position: relative;
         }
@@ -331,16 +332,27 @@
             color: #fff;
         }
 
+        .packageBox {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
         .carouselBox .innerBox {
             width: 20%;
             position: absolute;
             top: 35%;
             right: 10%;
             background-color: #ffffff;
-            box-shadow: 0px 0px 5px 0px;
+            box-shadow: 0px 0px 8px 0px;
             padding: 1rem;
             transform: translate(-50%, -50%);
             margin: 5% auto;
+        }
+
+        .copyTs .bodyPara {
+            margin-bottom: 0.2rem;
         }
 
         .contentBox {
@@ -410,6 +422,7 @@
         .textFooter {
             margin: auto;
             color: #fff;
+            text-align: center;
         }
 
         .copyrightBlurb {
@@ -558,7 +571,6 @@
 
                 .imageCarousel {
                     width: 100%;
-                    max-width: 960px;
                     display: flex;
                     overflow: hidden;
                     margin: auto;
@@ -566,10 +578,22 @@
         
                 .imageCarousel div {
                     display: grid;
-                    height: 350px;
+                    grid-template-columns: 100%;
+                    width: 100%;
+                    max-width: 650px;
                     flex: none;
                 }
 
+                .imageCarousel div span img {
+                    object-fit: cover;                
+                    }
+
+                    .packageBox {
+                        margin-top: 6rem;
+                        margin-bottom: 0;
+                    }
+
+                        
                 .carouselBox .innerBox {
                     width: 55%;
                     position: absolute;
