@@ -13,3 +13,20 @@ bckBTN.addEventListener("click", () => {
     slideContainer.scrollLeft += 1100;
 });
 
+
+const directionsButtons = document.getElementById('directionsButton');
+
+const directionsModal = document.getElementById("directions");
+
+const directionsClose = document.getElementById("directionsClosed");
+
+
+directionsButtons.addEventListener('click', () => {
+    directions.classList.add('show');
+});
+
+
+directionsClose.addEventListener('click', () => {
+    directions.classList.remove('show');
+});
+
