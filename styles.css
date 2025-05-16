@@ -29,6 +29,78 @@
         }
 
 
+        #directions .paraHead {
+            padding: 0;
+            margin: 2% 0% 0% 0%;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        #directions .copy {
+            padding: 0;
+            margin: 0% 0% 2% 0%;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: #fff;
+        }
+
+        #directions {
+
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: auto;
+            justify-content: center;
+            position: fixed;
+            opacity: 0;
+            pointer-events: none;
+            padding-top: 50px;
+            top: 0;
+            left: 0;
+            max-height: 100%;
+            overflow-y: scroll;
+            width: 100vw;
+            transition: 0.3s ease;
+            z-index: 50;
+            backdrop-filter: blur(10px);
+        }
+
+
+        #directions.show {
+            pointer-events: auto;
+            opacity: 1;
+        }
+
+
+        #directionsClosed {
+            display: flex;
+            justify-content: end;
+            color: #fff;
+            font-size: 2rem;
+            z-index: 100;
+        }
+
+        #directionsClosed:hover {
+            cursor: pointer;
+        }
+        
+        .displayBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba(220, 60, 63, 0.7);
+            backdrop-filter: blur(15px);
+            border: solid 2px #fff;
+            border-radius: 10px;
+            margin: 5% auto; /* 15% from the top and centered */
+            padding: 2rem 2rem 2rem 2rem;
+            width: 50%;
+            max-width: 1080px; /* Could be more or less, depending on screen size */
+            animation-duration: 2s;
+            overflow-y: auto;
+            z-index: 50;
+            transition: ease 1s;
+        }
+
+
         body {
             background-color: #fff;
             font-family: sans-serif;
@@ -830,6 +902,51 @@
 
             .sectionBox .innerBox .paraHead {
                 color: #000;
+            }
+
+
+            #directions .paraHead {
+                font-size: 1rem;
+                margin: 4% 0% 0% 0%;
+            }
+    
+            #directions .copy {
+                margin: 0% 0% 2% 0%;
+                font-size: 0.8rem;
+                line-height: 1.3rem;
+            }
+  
+    
+            #directions.show {
+                pointer-events: auto;
+                opacity: 1;
+            }
+    
+    
+            #directionsClosed {
+                display: flex;
+                justify-content: end;
+                color: #fff;
+                font-size: 2rem;
+                z-index: 100;
+            }
+    
+            #directionsClosed:hover {
+                cursor: pointer;
+            }
+
+            .displayBox {
+                backdrop-filter: blur(15px);
+                border: solid 2px #fff;
+                border-radius: 10px;
+                margin: 1% auto; /* 15% from the top and centered */
+                padding: 1rem;
+                width: 80%;
+                max-width: 450px; /* Could be more or less, depending on screen size */
+                animation-duration: 2s;
+                overflow-y: auto;
+                z-index: 50;
+                transition: ease 1s;
             }
 
     }
