@@ -4,6 +4,11 @@
             transition: ease 0.8s all;
         }
 
+        img {
+            margin: 0;
+            padding: 0;
+        }
+
 
 
                     @font-face{src: url(fonts/Roboto-Black.ttf);
@@ -393,6 +398,59 @@
         }
 
 
+        .attractionsGallery {
+            display: grid;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            margin: auto;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .attractBox {
+            position: relative;
+        }
+
+         .singaporePic {
+            max-height: 550px;
+            height: 100%;
+            width: 100%;
+            max-width: 850px;
+
+            overflow: hidden;
+        }
+
+        .attractionHighlight {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transform: translateY(-20px);
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+            display: flex;
+            align-items: end;
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,0,0,0.5));
+        }
+
+        .attractionHighlight .attractBlurb {
+            color: #fff;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-family: Roboto-Bold;
+        }
+
+        .attractionHighlight:hover {
+            opacity: 1;
+            overflow: hidden;
+            transform: translateY(0px);
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,0,0,0.5));
+        }
+
 
         .carouselBox {
             position: relative;
@@ -530,11 +588,12 @@
             margin-left: 1rem;
         }
 
-        .logo {
-            width: 20%;
+        .innerBox .logo {
+            width: 30%;
             max-width: 250px;
             margin-bottom: 0.5rem;
         }
+        
 
         .editBoxes {
             display: grid;
@@ -545,12 +604,15 @@
         }
 
         .edit1 {
-            padding: 5rem;
+            padding: 2rem;
             font-family: Roboto-Regular;
-            background-color: #377cba;
-            color: #fff;
+            color: #377cba;
             font-size: 1rem;
+            margin-top: 2rem;
+        }
 
+        .edit1 .copy {
+            margin-bottom: 0.5rem;
         }
 
         .edit2 {
@@ -618,6 +680,7 @@
 
     .edit1 {
         padding: 1rem;
+        margin: 0;
 
     }
 
@@ -948,6 +1011,24 @@
                 z-index: 50;
                 transition: ease 1s;
             }
+
+
+        .attractionsGallery {
+            display: grid;
+            grid-template-columns: 100%;
+            margin-bottom: 1rem;
+
+        }
+        
+
+
+
+        .attractionHighlight .attractBlurb {
+            color: #fff;
+            padding: 1rem;
+            font-size: 0.8rem;
+            font-family: Roboto-Regular;
+        }
 
     }
     
