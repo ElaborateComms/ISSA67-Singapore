@@ -148,15 +148,23 @@
             .left {
                 display: block;
                 background-color: #377cba;
-                width: 100%;
                 padding: 2rem;
                 color: #fff;
+            }
+
+            .TandC {
+                text-align: center;
+                padding: 1rem;
+            }
+
+            .TandC .paraContent {
+                font-size: 0.8rem;
+                margin: auto;
             }
 
             .right {
                 display: block;
                 background: linear-gradient(to top, rgb(220, 220, 220), rgb(255, 255, 255));
-                width: 100%;
                 padding: 2rem;
             }
 
