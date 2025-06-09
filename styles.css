@@ -49,7 +49,7 @@
             color: #fff;
         }
 
-        #directions {
+        #directions, #mtcAttend {
 
             background-color: rgba(0, 0, 0, 0.7);
             margin: auto;
@@ -69,13 +69,13 @@
         }
 
 
-        #directions.show {
+        #directions.show, #mtcAttend.show {
             pointer-events: auto;
             opacity: 1;
         }
 
 
-        #directionsClosed {
+        #directionsClosed, #mtcAttendClosed {
             display: flex;
             justify-content: end;
             color: #fff;
@@ -83,7 +83,7 @@
             z-index: 100;
         }
 
-        #directionsClosed:hover {
+        #directionsClosed:hover, #mtcAttendClosed {
             cursor: pointer;
         }
         
@@ -94,6 +94,24 @@
             background-color: rgba(220, 60, 63, 0.7);
             backdrop-filter: blur(15px);
             border: solid 2px #fff;
+            border-radius: 10px;
+            margin: 5% auto; /* 15% from the top and centered */
+            padding: 2rem 2rem 2rem 2rem;
+            width: 50%;
+            max-width: 1080px; /* Could be more or less, depending on screen size */
+            animation-duration: 2s;
+            overflow-y: auto;
+            z-index: 50;
+            transition: ease 1s;
+        }
+
+            .displayBoxTwo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba(255, 255, 255, 1);
+            backdrop-filter: blur(15px);
+            border: solid 2px #dc3c3f;
             border-radius: 10px;
             margin: 5% auto; /* 15% from the top and centered */
             padding: 2rem 2rem 2rem 2rem;
@@ -135,6 +153,53 @@
             margin: auto;
 
         }
+
+        #mtcAttend .displayBoxTwo div .paraHead {
+            margin: auto;
+            padding: 0;
+            text-align: center;
+        }
+
+        #mtcAttendClosed {
+            color: #dc3c3f;
+        }
+
+        .mtcFlow {
+            display: flex;
+            justify-content: center;
+        }
+
+        .mtcItem {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            padding: 2rem;
+            align-items: center;
+            align-content: center;
+        }
+
+        .mtcAttendLogo img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .mtcAttendLogo {
+            margin: auto;
+            width: 100%;
+            margin-bottom: 1rem;
+            max-width: 500px;
+        }
+
+
+
+        .mtcname {
+            text-align: center;
+            margin: auto;
+            font-size: 1rem;
+            font-family: Roboto-Regular;
+        }
+        
 
         .introContainer {
             background-image: linear-gradient(to top, #67a9e3, #ffffff);
@@ -652,7 +717,9 @@
         }
 
         
-
+        .contentBox .innerBox .modalbuttons {
+            display: flex;
+        }
 
         
 
@@ -661,6 +728,12 @@
 /* Queries */
 
 @media screen and (max-width: 960px){
+
+            .mtcFlow {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
 
     .edit3 .editHead {
         display: none;
@@ -747,6 +820,10 @@
             .homeStand {
                 font-size: 2rem;
                 line-height: 0.8rem;
+            }
+
+            #mtcAttend .displayBoxTwo div .paraHead {
+                font-size: 2rem;
             }
 
             .headersBox .subButton {
@@ -993,24 +1070,23 @@
                 font-size: 2rem;
                 z-index: 100;
             }
+
+            #mtcAttendClosed {
+                display: flex;
+                justify-content: end;
+                color: #dc3c3f;
+                font-size: 2rem;
+                z-index: 100;
+            }
     
             #directionsClosed:hover {
                 cursor: pointer;
             }
 
-            .displayBox {
-                backdrop-filter: blur(15px);
-                border: solid 2px #fff;
-                border-radius: 10px;
-                margin: 1% auto; /* 15% from the top and centered */
-                padding: 1rem;
-                width: 80%;
-                max-width: 450px; /* Could be more or less, depending on screen size */
-                animation-duration: 2s;
-                overflow-y: auto;
-                z-index: 50;
-                transition: ease 1s;
+            #mtcAttendClosed:hover {
+                cursor: pointer;
             }
+
 
 
         .attractionsGallery {
