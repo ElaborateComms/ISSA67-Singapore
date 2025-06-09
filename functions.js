@@ -30,3 +30,23 @@ directionsClose.addEventListener('click', () => {
     directions.classList.remove('show');
 });
 
+
+
+
+const MTCButtonCK = document.getElementById('MTCButton');
+
+const MTCAttendBTN = document.getElementById("mtcAttend");
+
+const mtcClose = document.getElementById("mtcAttendClosed");
+
+
+MTCButtonCK.addEventListener('click', () => {
+    MTCAttendBTN.classList.add('show');
+});
+
+
+mtcClose.addEventListener('click', () => {
+    MTCAttendBTN.classList.remove('show');
+});
+
+
