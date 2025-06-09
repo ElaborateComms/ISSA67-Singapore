@@ -33,6 +33,24 @@ directionsClose.addEventListener('click', () => {
 
 
 
+const sponsorBtnCK = document.getElementById('sponsoredClick');
+
+const sponsorAttendedBTN = document.getElementById("sponsorAttend");
+
+const sponsorAttendCloseBTN = document.getElementById("sponsorAttendClosed");
+
+
+sponsorBtnCK.addEventListener('click', () => {
+    sponsorAttendedBTN.classList.add('show');
+});
+
+
+sponsorAttendCloseBTN.addEventListener('click', () => {
+    sponsorAttendedBTN.classList.remove('show');
+});
+
+
+
 const MTCButtonCK = document.getElementById('MTCButton');
 
 const MTCAttendBTN = document.getElementById("mtcAttend");
