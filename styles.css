@@ -49,7 +49,7 @@
             color: #fff;
         }
 
-        #directions, #mtcAttend {
+        #directions, #mtcAttend, #sponsorAttend {
 
             background-color: rgba(0, 0, 0, 0.7);
             margin: auto;
@@ -69,13 +69,13 @@
         }
 
 
-        #directions.show, #mtcAttend.show {
+        #directions.show, #mtcAttend.show, #sponsorAttend.show {
             pointer-events: auto;
             opacity: 1;
         }
 
 
-        #directionsClosed, #mtcAttendClosed {
+        #directionsClosed, #mtcAttendClosed, #sponsorAttendClosed {
             display: flex;
             justify-content: end;
             color: #fff;
@@ -83,7 +83,7 @@
             z-index: 100;
         }
 
-        #directionsClosed:hover, #mtcAttendClosed {
+        #directionsClosed:hover, #mtcAttendClosed, #sponsorAttendClosed {
             cursor: pointer;
         }
         
@@ -160,8 +160,24 @@
             text-align: center;
         }
 
-        #mtcAttendClosed {
+        #sponsorAttend .displayBoxTwo div .paraHead {
+            margin: auto;
+            padding: 0;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .sponsorHead {
+            font-family: roboto-Bold;
+            font-size: 1.5rem;
             color: #dc3c3f;
+            margin: auto;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #mtcAttendClosed, #sponsorAttendClosed {
+            color: #dc3c3f !important;
         }
 
         .mtcFlow {
@@ -188,7 +204,7 @@
             margin: auto;
             width: 100%;
             margin-bottom: 1rem;
-            max-width: 500px;
+            max-width: 350px;
         }
 
 
@@ -595,6 +611,14 @@
             background-color: #377cba;
             justify-content: flex-end;
 
+        }
+
+        .sponsorsbuttons {
+            display: flex;
+        }
+        
+        .sponsorsbuttons .buttons {
+            margin-right: 3rem;
         }
 
 
@@ -1071,10 +1095,10 @@
                 z-index: 100;
             }
 
-            #mtcAttendClosed {
+            #mtcAttendClosed, #sponsorAttendClosed {
                 display: flex;
                 justify-content: end;
-                color: #dc3c3f;
+                color: #dc3c3f !important;
                 font-size: 2rem;
                 z-index: 100;
             }
