@@ -24,6 +24,89 @@
                         font-family: RobotoSlab-Regular;  }
 
 
+          .clientSponsors {
+                    overflow: hidden;
+                    padding: 1rem;
+                    background: linear-gradient(to top right, rgba(220, 60, 63), rgba(55, 124, 186));
+                    display: flex;
+                    margin: 1rem 0rem 1rem 0rem;
+                    position: relative;
+                }
+
+            .clientAtten {
+                    overflow: hidden;
+                    padding: 1rem;
+                    background: linear-gradient(to top right, rgba(220, 60, 63), rgba(55, 124, 186));
+                    display: flex;        
+                    margin-bottom: 5rem;
+                    position: relative;
+                }
+
+
+                @keyframes slide {
+                    from {
+                        transform: translateX(0);
+                    }
+                    to {
+                        transform: translateX(-100%);
+                    }
+                }
+
+                @keyframes slideRight {
+                    from {
+                        transform: translateX(-100%);
+                    }
+                    to {
+                        transform: translateX(0);
+                    }
+                }
+
+
+                .clientSponsors:hover .Slides {
+                    animation-play-state: paused;
+                }
+
+                .carousel {
+                    white-space: nowrap;
+                    background-color: #fff;
+                    display: inline-block;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    animation: 20s slide infinite linear; 
+                }
+
+                .carouselTwo {
+                    white-space: nowrap;
+                    background-color: #fff;
+                    display: inline-block;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    animation: 45s slideRight infinite linear; 
+                }
+
+                .Slides {
+                    padding: 1rem;
+                    width: 400px;
+                    margin: auto;
+                }
+
+                .sponsorSlides {
+                    margin: auto;
+                    width: 100%;
+                    max-width: 380px;
+                    height: 130px;            
+                    padding: 1rem;
+                }
+
+                .sponsorSlides img{
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+
+
+                
+
 
         a, button, .carouselArrows img {
             cursor: pointer;
@@ -194,19 +277,6 @@
             align-content: center;
         }
 
-        .mtcAttendLogo img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-
-        .mtcAttendLogo {
-            margin: auto;
-            width: 100%;
-            margin-bottom: 1rem;
-            max-width: 350px;
-        }
-
 
 
         .mtcname {
@@ -214,11 +284,6 @@
             margin: auto;
             font-size: 1rem;
             font-family: Roboto-Regular;
-        }
-        
-
-        .introContainer {
-            background-image: linear-gradient(to top, #67a9e3, #ffffff);
         }
 
         img {
@@ -476,6 +541,11 @@
         .carouselArrows img {
             padding: 1rem;
             width: 150px;
+        }
+
+        .clientAtten {       
+            margin-bottom: 1rem;
+     
         }
 
 
