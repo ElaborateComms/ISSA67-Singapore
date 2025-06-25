@@ -72,7 +72,7 @@
                     display: inline-block;
                     display: flex;
                     flex-wrap: nowrap;
-                    animation: 20s slide infinite linear; 
+                    animation: 25s slide infinite linear; 
                 }
 
                 .carouselTwo {
@@ -81,7 +81,7 @@
                     display: inline-block;
                     display: flex;
                     flex-wrap: nowrap;
-                    animation: 45s slideRight infinite linear; 
+                    animation: 50s slideRight infinite linear; 
                 }
 
                 .Slides {
