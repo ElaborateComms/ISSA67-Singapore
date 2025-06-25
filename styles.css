@@ -453,12 +453,25 @@
         }
         
         
+        .welcomeVideo {
+            margin: auto;
+            width: 50%;
+            position: relative;
+            margin-top: 2rem;
+        }
+
+        .ISSA67 {
+            aspect-ratio: 16 / 9;
+            width: 100%
+        }
 
         .mapEmbed {
             width: 100%;
             height: 100vh;
             position: relative;
         }
+
+
 
         .mapEmbed iframe {
             height: 100%;
@@ -828,6 +841,16 @@
             justify-content: center;
             flex-direction: column;
         }
+
+
+        .welcomeVideo {
+            margin: auto;
+            width: 100%;
+            position: relative;
+            margin-top: 0;
+        }
+
+
 
     .edit3 .editHead {
         display: none;
