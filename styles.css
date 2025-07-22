@@ -62,7 +62,11 @@
                 }
 
 
-                .clientSponsors:hover .Slides {
+                .clientSponsors .carousel:hover {
+                    animation-play-state: paused;
+                }
+
+                .clientAtten .carouselTwo:hover {
                     animation-play-state: paused;
                 }
 
@@ -72,7 +76,7 @@
                     display: inline-block;
                     display: flex;
                     flex-wrap: nowrap;
-                    animation: 25s slide infinite linear; 
+                    animation: 45s slide infinite linear; 
                 }
 
                 .carouselTwo {
@@ -81,7 +85,7 @@
                     display: inline-block;
                     display: flex;
                     flex-wrap: nowrap;
-                    animation: 50s slideRight infinite linear; 
+                    animation: 80s slideRight infinite linear; 
                 }
 
                 .Slides {
