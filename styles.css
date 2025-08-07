@@ -61,7 +61,7 @@
                     }
                 }
 
-
+/*
                 .clientSponsors .carousel:hover {
                     animation-play-state: paused;
                 }
@@ -69,7 +69,7 @@
                 .clientAtten .carouselTwo:hover {
                     animation-play-state: paused;
                 }
-
+*/
                 .carousel {
                     white-space: nowrap;
                     background-color: #fff;
@@ -1242,5 +1242,315 @@
 #dc3c3f red
 #357ab9 - #fff blue to white gradient
 #357ab9 blue
+
+*/
+
+
+
+/*
+
+ <section id="mtcAttend">
+
+                                        <div class="displayBoxTwo">
+
+                                            <span id="mtcAttendClosed"><B>X</B></span>
+
+                                            <div>
+                                                <h3 class="paraHead">
+                                                    MTC Attendees
+                                                </h3>
+                                            </div>
+
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/ABMaritime.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                A.B Maritime Inc
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Alassia.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Alassia Newships Management Inc
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/AM Nomikos.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                AM Nomikos
+                                                </p>
+                                            </div>
+
+
+                                            <div class="Slides">                         
+                                                <div class="sponsorSlides">
+                                                <img src="attendee logos/AVS.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                AVS
+                                                </p>   
+                                            </div>
+
+
+                                            </div>
+                                            
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/bluMaritime.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                BLU Maritime Consultancy Pte Ltd
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Bright Navigation.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Bright Navigation
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/BSMLogo.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                BSM
+                                                </p>
+                                            </div>
+
+                                            </div>                                     
+
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/BWFleet.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                BW Fleet
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Columbia Ship Management.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Columbia Ship Management - Singapore
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Columbia Ship Management.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Columbia Ship Management - Greece
+                                                </p>
+                                            </div>
+
+                                            </div>
+
+
+
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/cosmos_marine_management_logo.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Cosmoship Management
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/dis-positivo.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                D'Amico
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Fleet Management Limited.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Fleet Management Limited
+                                                </p>
+                                            </div>
+
+
+
+                                            </div>                                            
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Great Eastern.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Great Eastern
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Hermeena Marine Contractors.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Heerema Marine Contractors
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Interorent Shipmanagement .png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Interorient Marine Services Ltd
+                                                </p>
+                                            </div>
+
+                                            </div>
+
+
+
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/JHI Steamship Co.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                JHI Steamship Co
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/MCTC.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                MCTC
+                                                </p>
+                                            </div>
+
+                                            </div>
+
+
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Oldendorff Carriers.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Oldendorff Carriers
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/NYK Shipmanagement.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                NYK Shipmanagement
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Seagate Navigation Limited.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Seagate Navigation Limited
+                                                </p>
+                                            </div>
+
+                                            </div>
+
+
+                                            <div class="mtcFlow">
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/SPS-Logo.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Ship Procurement Services S.A (SPS)
+                                                </p>
+                                            </div>
+
+
+                                            <div class="Slides">                        
+                                                <div class="sponsorSlides">
+                                                <img src="attendee logos/Synergy.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Synergy Group
+                                                </p>   
+                                            </div>  
+
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/torm_logo.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Torm
+                                                </p>
+                                            </div>
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/WMarineP293.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                W Marine Inc
+                                                </p>
+                                            </div>
+
+                                            </div>
+                                            
+                                            <div class="mtcFlow">
+
+
+
+
+                                            <div class="mtcItem">
+                                                <div class="mtcAttendLogo">
+                                                    <img src="attendee logos/Tolani.png">
+                                                </div>
+                                                <p class="mtcname">
+                                                Tolani Group
+                                                </p>
+                                            </div>
+
+                                        
+
+                                            </div>                                            
+
+
+
+
+                                        </div>
+                                    </section>
 
 */
