@@ -10,6 +10,14 @@
         }
 
 
+        .sponsorDisplay {
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            flex-wrap: wrap;
+        }
+
 
                     @font-face{src: url(fonts/Roboto-Black.ttf);
                         font-family: Roboto-Black;  }
@@ -92,6 +100,7 @@
                     padding: 1rem;
                     width: 400px;
                     margin: auto;
+                    margin-bottom: 1rem;
                 }
 
                 .sponsorSlides {
@@ -140,13 +149,13 @@
             color: #fff;
         }
 
-        #directions, #mtcAttend, #sponsorAttend {
 
+        #sponsorAttend {
             background-color: rgba(0, 0, 0, 0.7);
             margin: auto;
             justify-content: center;
             position: fixed;
-            opacity: 0;
+            opacity: 1;
             pointer-events: none;
             padding-top: 50px;
             top: 0;
@@ -155,27 +164,23 @@
             overflow-y: scroll;
             width: 100vw;
             transition: 0.3s ease;
-            z-index: 50;
+            z-index: 350;
             backdrop-filter: blur(10px);
         }
 
-
-        #directions.show, #mtcAttend.show, #sponsorAttend.show {
+        #sponsorAttend.show {
             pointer-events: auto;
-            opacity: 1;
+            opacity: 0;
         }
 
 
-        #directionsClosed, #mtcAttendClosed, #sponsorAttendClosed {
+
+        #sponsorAttendClosed {
             display: flex;
             justify-content: end;
             color: #fff;
             font-size: 2rem;
-            z-index: 100;
-        }
-
-        #directionsClosed:hover, #mtcAttendClosed, #sponsorAttendClosed {
-            cursor: pointer;
+            z-index: 400;
         }
         
         .displayBox {
@@ -194,24 +199,7 @@
             overflow-y: auto;
             z-index: 50;
             transition: ease 1s;
-        }
-
-            .displayBoxTwo {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: rgba(255, 255, 255, 1);
-            backdrop-filter: blur(15px);
-            border: solid 2px #dc3c3f;
-            border-radius: 10px;
-            margin: 5% auto; /* 15% from the top and centered */
-            padding: 2rem 2rem 2rem 2rem;
-            width: 50%;
-            max-width: 1080px; /* Could be more or less, depending on screen size */
-            animation-duration: 2s;
-            overflow-y: auto;
-            z-index: 50;
-            transition: ease 1s;
+            opacity: 1;
         }
 
 
@@ -245,18 +233,6 @@
 
         }
 
-        #mtcAttend .displayBoxTwo div .paraHead {
-            margin: auto;
-            padding: 0;
-            text-align: center;
-        }
-
-        #sponsorAttend .displayBoxTwo div .paraHead {
-            margin: auto;
-            padding: 0;
-            font-size: 2rem;
-            text-align: center;
-        }
 
         .sponsorHead {
             font-family: roboto-Bold;
@@ -367,6 +343,18 @@
             padding: 0 0 2rem 5rem;
             }
 
+        .paraHeadCN {
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+            font-size: 4rem;
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+            }
+
+            
+
         .subNote {
             font-family: Roboto-Bold;
             text-transform: uppercase;
@@ -422,6 +410,14 @@
             margin: auto;
             justify-content: center;
             grid-template-columns: 50% 50%;
+        }
+
+        .sectionBoxCN {
+            display: grid;
+            margin: auto;
+            justify-content: center;
+            grid-template-columns: 90%;
+            margin-top: 2rem;
         }
 
         .introContainer {
@@ -854,6 +850,37 @@
 
 @media screen and (max-width: 960px){
 
+
+        .sponsorDisplay {
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            flex-wrap: wrap;
+        }
+
+
+               .sponsorDisplay .Slides .sponsorSlides {
+                    margin: auto;
+                    width: 100%;
+                    max-width: 380px;
+                    height: 130px;            
+                    padding: 1rem;
+                }
+
+
+        .sponsorDisplay .Slides .sponsorHead {
+            font-size: 1rem;
+        }
+
+
+        .sponsorDisplay .Slides .mtcname {
+            font-size: 0.8rem;
+        }
+
+
+
+
             .mtcFlow {
             display: flex;
             justify-content: center;
@@ -957,7 +984,7 @@
                 line-height: 2.5rem;
             }
 
-            #mtcAttend .displayBoxTwo div .paraHead {
+            .paraHeadCN {
                 font-size: 2rem;
             }
 
@@ -1202,38 +1229,6 @@
                 line-height: 1.3rem;
             }
   
-    
-            #directions.show {
-                pointer-events: auto;
-                opacity: 1;
-            }
-    
-    
-            #directionsClosed {
-                display: flex;
-                justify-content: end;
-                color: #fff;
-                font-size: 2rem;
-                z-index: 100;
-            }
-
-            #mtcAttendClosed, #sponsorAttendClosed {
-                display: flex;
-                justify-content: end;
-                color: #dc3c3f !important;
-                font-size: 2rem;
-                z-index: 100;
-            }
-    
-            #directionsClosed:hover {
-                cursor: pointer;
-            }
-
-            #mtcAttendClosed:hover {
-                cursor: pointer;
-            }
-
-
 
         .attractionsGallery {
             display: grid;
@@ -1254,6 +1249,141 @@
 
     }
     
+
+
+
+                /* Basic styles for the page */
+
+        .sponsorDisplay {
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            flex-wrap: wrap;
+        }
+
+
+               .sponsorDisplay .Slides .sponsorSlides {
+                    margin: auto;
+                    width: 100%;
+                    max-width: 380px;
+                    height: 130px;            
+                    padding: 1rem;
+                }
+
+
+            .modal-content .MTCLogo {
+                width: 30%;
+                max-width: 250px;
+                margin: auto;
+                padding: 2rem;
+            }
+
+
+            .modal-content .sponsorDisplay .Slides {
+                max-width: 30%;
+                margin: auto;
+            }
+
+            .modal-content .paraHeadCN {
+                font-size: 2rem;
+            }
+
+            .modal-content .paraHeadCN a {
+                color: #dc3c3f;
+                font-size: 1.5rem;
+            }
+
+            
+
+            /* Modal styles */
+            .modal {
+                display: none;  /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+                justify-content: center;
+                align-items: center;
+                z-index: 300;
+                overflow-y: scroll;
+                display: flex;  /* Use flexbox for centering */
+            }
+
+            /* Modal Content */
+            .modal-content {
+                margin: 5% auto;
+                background-color: white;
+                padding: 20px;
+                overflow-y: scroll;
+                border-radius: 10px;
+                max-width: 800px;
+                width: 70%;
+                color: #dc3c3f;
+                box-shadow: 0 0 35px 1px;
+                text-align: center;
+                border-radius: 10px;   
+                animation: fadeIn 0.3s ease-in-out; /* Add animation */
+            }
+
+
+            /* Close button */
+            .close {
+                color: #dc3c3f;
+                font-size: 4rem;
+                font-weight: bold;
+                position: absolute;
+                top: 1rem;
+                right: 2rem;
+                cursor: pointer;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            /* Animation for modal appearance */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @media only screen and (max-width: 860px) {
+
+
+                            .modal-content .MTCLogo {
+                            width: 50%;
+                            }
+
+
+                            .modal-content .paraHeadCN {
+                                font-size: 1.2rem;
+                            }
+
+                            .modal-content .paraHeadCN a {
+                                color: #dc3c3f;
+                                font-size: 1rem;
+                            }
+
+                            /* HAMBURGER */
+
+                            .close  {
+                                    top: 0.5rem;
+                                    right: 0.7rem;
+                                    font-size: 3rem;
+                            }
+                        }
+
 
 
 /*
