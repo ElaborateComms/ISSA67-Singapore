@@ -1,7 +1,31 @@
+// Get the modal element
+const modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+const closeBtn = document.getElementById("closeBtn");
+
+window.onload = function() {
+    modal.style.display = "block";
+}
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
 
 let slideContainer = document.querySelector(".imageCarousel");
 let bckBTN = document.getElementById("bckbtn");
 let FDBTN = document.getElementById("fdbtn");
+
 
 FDBTN.addEventListener("click", () => {
     slideContainer.style.scrollBehavior = "smooth";
@@ -13,58 +37,5 @@ bckBTN.addEventListener("click", () => {
     slideContainer.scrollLeft += 1100;
 });
 
-
-const directionsButtons = document.getElementById('directionsButton');
-
-const directionsModal = document.getElementById("directions");
-
-const directionsClose = document.getElementById("directionsClosed");
-
-
-directionsButtons.addEventListener('click', () => {
-    directions.classList.add('show');
-});
-
-
-directionsClose.addEventListener('click', () => {
-    directions.classList.remove('show');
-});
-
-
-
-
-const sponsorBtnCK = document.getElementById('sponsoredClick');
-
-const sponsorAttendedBTN = document.getElementById("sponsorAttend");
-
-const sponsorAttendCloseBTN = document.getElementById("sponsorAttendClosed");
-
-
-sponsorBtnCK.addEventListener('click', () => {
-    sponsorAttendedBTN.classList.add('show');
-});
-
-
-sponsorAttendCloseBTN.addEventListener('click', () => {
-    sponsorAttendedBTN.classList.remove('show');
-});
-
-
-
-const MTCButtonCK = document.getElementById('MTCButton');
-
-const MTCAttendBTN = document.getElementById("mtcAttend");
-
-const mtcClose = document.getElementById("mtcAttendClosed");
-
-
-MTCButtonCK.addEventListener('click', () => {
-    MTCAttendBTN.classList.add('show');
-});
-
-
-mtcClose.addEventListener('click', () => {
-    MTCAttendBTN.classList.remove('show');
-});
 
 
