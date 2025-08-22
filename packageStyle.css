@@ -81,15 +81,27 @@
         }
 
         .introVid {
-            width: 100%;
-            max-width: 550px;
+            margin: auto;
+            position: relative;
+            margin-top: 2rem;
             position: relative;
             z-index: 50;
             top: 0%;
             left: 50%;
-            transform: translate(-60%, -50%);
-            margin-bottom: -10%;
+            position: relative;
+            z-index: 50;
+            top: 0%;
+            left: 25%;
+            width: 50%;
+            transform: translate(-50%, -50%);
+            margin-bottom: -10rem;
         }
+    
+        .introVid iframe {
+                    width: 100%;
+                    aspect-ratio: 16 / 9;
+                }
+
 
         .homeStand {
             font-family: Roboto-Bold;
@@ -434,14 +446,10 @@
                 }
 
                 .introVid {
-                    width: 90%;
-                    max-width: 550px;
-                    position: relative;
-                    z-index: 50;
-                    top: 20%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    margin-bottom: 0;
+                        left: 50%;
+                        width: 100%;
+            margin-bottom: -2rem;
+
                 }
 
             .twoColContent {
