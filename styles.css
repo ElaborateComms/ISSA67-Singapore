@@ -1012,6 +1012,9 @@
                 justify-content: center;
             }
 
+
+
+
             .innerMainBox {
                 margin: auto;
             }
@@ -1069,6 +1072,12 @@
                     margin: auto;
                 }
         
+
+                .welcomeVideo iframe {
+                    width: 100%;
+                    aspect-ratio: 16 / 9;
+                }
+
                 .imageCarousel div {
                     display: grid;
                     grid-template-columns: 100%;
