@@ -360,10 +360,29 @@
             text-transform: uppercase;
             color: #dc3c3f;
             font-size: 1.8rem;
-    
             margin-bottom: 2rem;
             text-align: center;
             }
+
+
+        .subNote2 {
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+            color: #000 !important;
+            font-size: 1.5rem;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 2rem;
+            text-align: center;
+            }
+
+        .subNote2 a {
+            color: #000 !important;
+            font-size: 1.5rem;
+            width: 90%;
+            margin: auto;
+            }
+
 
         .bodyPara {
             font-size: 1rem;
@@ -1050,6 +1069,30 @@
                     margin-bottom: 0.5rem;
                     text-align: left;
                 }
+
+
+        .subNote2 {
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+            color: #000 !important;
+            font-size: 0.8rem;
+            width: 90%;
+            padding: 0;
+            text-align: left;
+            margin: 0;
+            }
+
+        .subNote2 a {
+            font-family: Roboto-Bold;
+            text-transform: uppercase;
+            color: #000 !important;
+            font-size: 0.8rem;
+            width: 90%;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            }
+
 
 
                 .innerBoxMain .bodyPara {
