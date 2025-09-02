@@ -41,6 +41,11 @@
 
         const directionsClo = document.getElementById('directionsClosed');
 
+        
+        window.onload = function() {
+            directionsCtn.style.display = "none";
+        }
+
         directionsBtn.onclick = function() {
             directionsCtn.style.display = "block";
         }
