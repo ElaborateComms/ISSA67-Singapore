@@ -429,6 +429,7 @@
             margin: auto;
             justify-content: center;
             grid-template-columns: 50% 50%;
+            width: 90%;
         }
 
         .sectionBoxCN {
@@ -775,6 +776,12 @@
             margin-top: 1rem;
             font-size: 1rem;
             text-transform: uppercase;
+        }
+
+        .sectionBox .paraHead {
+            width: 100%;
+            margin: 0;
+            padding: 0;
         }
 
         .ISSA img {
@@ -1349,7 +1356,7 @@
             
 
             /* Modal styles */
-            .modal {
+            .modal, #directions {
                 display: none;  /* Hidden by default */
                 position: fixed; /* Stay in place */
                 z-index: 1; /* Sit on top */
