@@ -353,6 +353,10 @@
             margin-bottom: 1rem;
             }
 
+            h3 {
+                margin-bottom: 1rem !important;
+            }
+
             
 
         .subNote {
@@ -362,6 +366,8 @@
             font-size: 1.8rem;
             margin-bottom: 2rem;
             text-align: center;
+            width: 90%;
+            margin: auto;
             }
 
 
@@ -1075,6 +1081,8 @@
                     margin-top: 0.5rem;
                     margin-bottom: 0.5rem;
                     text-align: left;
+                    width: 90%;
+                    margin: 0;
                 }
 
 
