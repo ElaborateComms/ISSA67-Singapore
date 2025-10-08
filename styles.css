@@ -1153,6 +1153,7 @@
                     .packageBox {
                         margin-top: 6rem;
                         margin-bottom: 0;
+                        display: block;
                     }
 
                         
